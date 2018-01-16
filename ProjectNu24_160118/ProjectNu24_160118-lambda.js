@@ -4,7 +4,11 @@ exports.handler = function (event, context, callback) {
 	console.log("Event triggered ", event);
 	ddb.put({
 		TableName: 'nuwanthi_table',
-		Item: { first_name: 'nuwanthi', last_name: 'yapa', id: 1 }
+		Item: {
+			first_name: 'nuwanthi',
+			last_name: '1',
+			id: '1'
+		}
 	}, function (err, data) {
 		if (err) {
 			console.log("Error ", err);
