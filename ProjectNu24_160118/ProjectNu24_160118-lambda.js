@@ -6,7 +6,7 @@ exports.handler = function (event, context, callback) {
 		TableName: 'nuwanthi_table',
 		Item: {
 			first_name: 'nuwanthi',
-			last_name: '1',
+			last_name: 'yapa',
 			id: '1'
 		}
 	}, function (err, data) {
