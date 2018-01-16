@@ -1,7 +1,5 @@
 {
   "name": "ProjectNu24_160118",
   "version": "1.0.0",
-  "dependencies": {
-    "aws-sdk": "2.182.0"
-  }
+  "dependencies": {}
 }
